@@ -29,6 +29,17 @@ This example API documentation page was created with [Slate](https://github.com/
 
 > To authorize, use this code:
 
+```go
+package main
+
+import kittn "kittn"
+
+func main() {
+	api := kittn.APIClient()
+	api.Authorize("meowmeowmeow")
+}
+```
+
 ```ruby
 require 'kittn'
 
